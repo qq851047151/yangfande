@@ -1,0 +1,197 @@
+.header{
+    width: 100%;
+    height: 1.3rem;
+    background: #f04c18;
+
+}
+.topbar{
+    width: 100%;
+    height:auto;
+    background: #66afe9;
+}
+.topbar img{
+    width: 0.2rem;
+    height: 0.3rem;
+    margin-left: 0.3rem;
+    float: left;
+    margin-top: 0.5rem;
+}
+.topbar .biaoti span{
+    font-size: 0.3rem;
+    display: block;
+    float: left;
+    margin-left: 2.7rem;
+    margin-top: 0.5rem;
+    color: #ffffff;
+}
+.meitui{
+    width: 100%;
+    height: 2.9rem;
+    /*background: #66afe9;*/
+    margin-top:0.5rem;
+}
+.meitui .yitui{
+    width: 1.8rem;
+    height: 0.67rem;
+    background: #f04c17;
+    border-radius: 0 0.4rem 0.4rem 0;
+    font-size: 0.35rem;
+    text-align: center;
+    line-height: 0.67rem;
+    font-weight: normal;
+    color:rgba(255,255,255,0.8);
+    margin-bottom: 0.56rem;
+}
+.meitui .tese{
+    width: 7.04rem;
+    height: 1.65rem;
+    /*background: black;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.tese1,.tese2{
+    width: 3.36rem;
+    height: 100%;
+    background:#ffffff;
+    border-radius: 0.2rem;
+    text-align: left;
+    box-shadow:0 0 0.1rem 0.01rem #9d9d9d;
+}
+.tese1 img,.tese2 img{
+    width: 1.24rem;
+    height: 1.24rem;
+    margin: 0.18rem;
+}
+.tese1 span {
+    font-size: 0.4rem;
+    letter-spacing: 0.01rem;
+    position: absolute;
+    left: 1.6rem;
+    top: 0.3rem;
+    font-weight: bolder;
+}
+.tese1 p{
+    font-size: 0.3rem;
+    letter-spacing: 0.01rem;
+    position: absolute;
+    left: 1.8rem;
+    top: 0.9rem;
+}
+.tese2 span {
+    font-size: 0.4rem;
+    letter-spacing: 0.01rem;
+    position: absolute;
+    right: 0.15rem;
+    top: 0.3rem;
+    font-weight: bolder;
+}
+.tese2 p{
+    font-size: 0.3rem;
+    letter-spacing: 0.01rem;
+    position: absolute;
+    right: 0.2rem;
+    top: 0.9rem;
+}
+.history{
+    margin-bottom: 1.8rem;
+}
+.history .yitui1{
+    width: 1.8rem;
+    height: 0.67rem;
+    background: #f04c17;
+    border-radius: 0 0.4rem 0.4rem 0;
+    font-size: 0.35rem;
+    text-align: center;
+    line-height: 0.67rem;
+    font-weight: normal;
+    color:rgba(255,255,255,0.8);
+    margin-top: 0.56rem;
+}
+.history .dingdan1{
+    width: 7.01rem;
+    height: 1.56rem;
+    border-radius:0.2rem;
+    background:white ;
+    margin: 0 auto;
+    box-shadow: 0rem 0.02rem 0.18rem #9d9d9d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:0.56rem;
+}
+.dingdan1 .cai{
+    width: 1.28rem;
+    height: 1.28rem;
+    /*background: #66afe9;*/
+    text-align: center;
+}
+.cai img{
+    width: 1.28rem;
+    height: 1.28rem;
+}
+.cai:nth-child(2){
+  width: auto;
+}
+.cai:nth-child(3){
+    width: auto;
+}
+.cai p{
+    font-size: 0.24rem;
+    font-weight: bolder;
+    color: #9d9d9d;
+    text-align: left;
+}
+.cai p:nth-child(1){
+    font-size: 0.28rem;
+    color: black;
+}
+.cai .sekuai{
+    width: 1.39rem;
+    height: 0.64rem;
+    background: #e72412;
+    border-radius: 0.32rem ;
+    font-size: 0.26rem;
+    text-align: center;
+    color: white;
+    line-height: 0.64rem;
+    margin-top: 0.5rem;
+}
+.tab{
+    width: 100%;
+    height: 1rem;
+    margin: 0 auto;
+    background: white;
+    margin-top: 0.8rem;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 0.2rem 0.1rem #cccccc;
+    position: fixed;
+    bottom: 0;
+}
+.tab .shou,.discover,.order,.my{
+    width: 1rem;
+    height: 1rem;
+    /*background: red;*/
+    margin-top:-0.5rem;
+    margin-left: 0.4rem;
+}
+.shou img{
+    width: 0.5rem;
+    height: 0.4rem;
+}
+.order p{
+    font-size: 0.2rem;
+    color: #d61f07;
+    margin-top: -0.2rem;
+}
+.discover p ,.shou p,.my p{
+    font-size: 0.2rem;
+    color: #a0a0a0;
+    margin-top: -0.2rem;
+}
+.discover img,.order img,.my img {
+    width: 0.5rem;
+    height: 0.4rem;
+}
