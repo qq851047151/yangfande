@@ -1,0 +1,168 @@
+.all{
+    width: 100%;
+    height: auto;
+    /*background: #66afe9;*/
+}
+.all>img{
+    width: 0.16rem;
+    height: 0.28rem;
+    margin-left: 0.27rem;
+    margin-top: 0.41rem;
+    margin-bottom: 0.41rem;
+}
+.nav{
+    width: 100%;
+    height: 0.23rem;
+    background: #9d9d9d;
+}
+.all>span{
+    font-size: 0.4rem;
+    color: rgba(0,0,0,0.5);
+    font-weight: bolder;
+    margin-left: 0.27rem;
+    display:block;
+    margin-top: -0.23rem;
+    letter-spacing: 0.02rem;
+}
+hr{
+    width: 7.02rem;
+    height:0.01rem;
+    background: #666666;
+    margin: 0 auto;
+    margin-top:0.46rem ;
+    border: none;
+}
+#paymoney{
+    width:7.02rem;
+    height: 0.56rem;
+    margin:0 auto;
+    margin-top: 0.2rem;
+    /*background: red;*/
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+#paymoney .circle{
+    width: 0.09rem;
+    height: 0.09rem;
+    border-radius: 50%;
+    background: #fa3a15;
+    margin-top: 0.18rem;
+    margin-right: 0.1rem;
+}
+#paymoney span{
+    font-size: 0.3rem;
+    color: rgba(120, 120, 120, 0.81);
+    font-weight: bolder;
+    letter-spacing: 0.02rem;
+}
+#paymoney .one{
+    display: inline;
+    color: red;
+    font-size: 0.3rem;
+    font-weight: bolder;
+    position: absolute;
+    right: 0.9rem;
+    top: 0.09rem;
+}
+#paymoney .two{
+    display: inline;
+    color: red;
+    font-size: 0.3rem;
+    font-weight: bolder;
+    position: absolute;
+    right: 0;
+}
+.pic{
+    margin-top: 0.2rem;
+    width: 100%;
+    height: 3.33rem;
+    /*background: yellow;*/
+    text-align: center;
+}
+.pic img{
+    width: 6.55rem;
+    height: 3.33rem;
+}
+.all .password{
+    width: 4.45rem;
+    height: 0.61rem;
+    /*background: #4cae4c;*/
+    margin: 0 auto;
+    margin-top: 0.51rem;
+    display: flex;
+    justify-content: space-between;
+}
+.password .kuang{
+    width:0.62rem;
+    height:0.61rem;
+    /*background: red;*/
+    text-align: center;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.kuang .smallcircle{
+    width: 0.19rem;
+    height: 0.19rem;
+    border-radius: 50%;
+    background: #7a7d80;
+}
+.kuang .smalljuxing{
+    width: 0.62rem;
+    height: 0.13rem;
+    border-radius: 0.065rem;
+    background: #cccccc;
+}
+.kuang p{
+    font-size: 0.2rem;
+    font-weight: bolder;
+}
+.kuang:nth-child(6) .smalljuxing{
+    background:#666666;
+}
+.all .keybody{
+    width: 7.5rem;
+    height: 4.28rem;
+    background: #dcdfe5;
+    margin: 0 auto;
+    margin-top: 1.04rem;
+    display: flex;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.keybody .key{
+    width: 2.34rem;
+    height: 0.93rem;
+    background: white;
+    border-radius: 0.2rem;
+    border-bottom: 0.01rem solid #333333;
+    text-align: center;
+    position: relative;
+}
+.key span{
+    font-size: 0.5rem;
+    font-weight: bold;
+    position: absolute;
+    left: 1.05rem;
+}
+.key p{
+    font-size: 0.2rem;
+    font-weight: bolder;
+    margin-top: 0.6rem;
+}
+.key:nth-last-child(1),.key:nth-last-child(3){
+    background: none;
+    border: none;
+    text-align: center;
+    line-height:0.93rem ;
+}
+.key:nth-last-child(2) span{
+    top:0.2rem ;
+}
+.key:nth-last-child(1) img{
+    width:0.9rem ;
+    height: 0.65rem;
+}
