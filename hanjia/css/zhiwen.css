@@ -3,7 +3,7 @@
     height: auto;
     /*background: #66afe9;*/
 }
-.all>img{
+.all>a>img{
     width: 0.16rem;
     height: 0.28rem;
     margin-left: 0.27rem;
